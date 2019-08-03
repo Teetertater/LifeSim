@@ -3,6 +3,8 @@ A Simulated Population of Lifeforms that Reproduce and Evolve
 Created with Lua and LÖVE    
 **To run: Open bin/lifesim.exe**  
 
+![LifeSim Demo](lifesim.gif)
+
 Lifeforms consume energy with every step.   
 Dark horizontal lines represent food. Lifeforms walking over the lines will gain energy.   
 Mutations occur occasionally, a mutant Lifeform will take on a new colour.   
