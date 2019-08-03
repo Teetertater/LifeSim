@@ -26,6 +26,7 @@ Mutations occur occasionally, a mutant Lifeform will take on a new colour.
 
 ]]--
 
+love.window.setTitle("Life Simulation V1")
 
 -- Constants
 maxLifeSpan = 5000
