@@ -6,7 +6,7 @@ This is is a small simulation of very basic life, having the ability to walk aro
 
 ![LifeSim Demo](lifesim.gif)
 
-Every dot represents one **life**. Lifeforms consume **energy** with every step. Dark horizontal lines represent **food**. Lifeforms walking over the lines will gain energy. Every Lifeform has a "**walk sequence**," set at its birth, that controls its movement . It will follow this sequence on repeat. E.g. (left, up, up). **Mutations** occur occasionally; a mutation can affect either a **step** along the sequence, or the length of it. A mutant Lifeform will take on a new **colour**.   
+Every dot represents one **life**. Lifeforms consume **energy** with every step. Dark horizontal lines represent **food**. Lifeforms walking over the lines will gain energy. Every Lifeform has a "**walk sequence**," set at its birth, that controls its movement . It will follow this sequence on repeat. E.g. (left, up, up). **Mutations** occur occasionally; a mutation can affect either a **step** along the sequence, or the length of it. A mutant Lifeform will take on a new **colour**. **Reproduction** happens when two Lifeforms run into eachother, are old enough, and have enough energy. Each time they produce two **offspring** that have one parent's walk sequence and a different direction. 
 
 
 Start menu is controlled by arrow keys and return/enter.
