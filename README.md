@@ -1,6 +1,7 @@
 # Evolution Simulation by Yury Zhuk, Summer 2019
 A Simulated Population of Lifeforms that Reproduce and Evolve   
-Created with Lua and LÖVE. To run: Open bin/lifesim.exe   
+Created with Lua and LÖVE    
+**To run: Open bin/lifesim.exe**  
 
 Lifeforms consume energy with every step.   
 Dark horizontal lines represent food. Lifeforms walking over the lines will gain energy.   
