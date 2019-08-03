@@ -1,13 +1,12 @@
 # Evolution Simulation by Yury Zhuk, Summer 2019
-A Simulated Population of Lifeforms that Reproduce and Evolve   
 Created with Lua and LÖVE    
 **To run: Open bin/lifesim.exe**  
 
+This is is a small simulation of very basic life, having the ability to walk around the screen, eat, reproduce and mutate. Built just for fun and as an exercise to learn Lua.   
+
 ![LifeSim Demo](lifesim.gif)
 
-Lifeforms consume energy with every step.   
-Dark horizontal lines represent food. Lifeforms walking over the lines will gain energy.   
-Mutations occur occasionally, a mutant Lifeform will take on a new colour.   
+Every dot represents one **life**. Lifeforms consume **energy** with every step. Dark horizontal lines represent **food**. Lifeforms walking over the lines will gain energy. Every Lifeform has a "**walk sequence**," set at its birth, that controls its movement . It will follow this sequence on repeat. E.g. (left, up, up). **Mutations** occur occasionally; a mutation can affect either a **step** along the sequence, or the length of it. A mutant Lifeform will take on a new **colour**.   
 
 
 Start menu is controlled by arrow keys and return/enter.
